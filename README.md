@@ -1,5 +1,7 @@
 Quote App
 
-This app generates inspirational quotes by 6am daily to help you kick start your day.
+This app generates inspirational quotes to help you kick start your day.
 
-Tools: Flutter, Riverpod, Xano, API
+It sends you the notification by 6am every morning
+
+Tools: Flutter, Riverpod, Xano, API, Notification
