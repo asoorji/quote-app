@@ -1,16 +1,13 @@
-# quote_app
+<h1>Quote App</h1>
 
-A new Flutter project.
+This app generates inspirational quotes to help you kick start your day.
 
-## Getting Started
+It sends you the notification by 6am every morning
 
-This project is a starting point for a Flutter application.
+Tools: Flutter, Riverpod, Xano, API, Notification
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image-removebg-preview (10)](https://user-images.githubusercontent.com/42071241/189536885-8dfb09e0-bd9f-4073-8a44-55cb8c372693.png)
+![image-removebg-preview (8)](https://user-images.githubusercontent.com/42071241/189479608-65a6bafb-dcda-435d-97ee-9572f347c065.png)
+![image-removebg-preview (7)](https://user-images.githubusercontent.com/42071241/189479610-8c624f8e-ce86-479a-b601-c15383e984da.png)
