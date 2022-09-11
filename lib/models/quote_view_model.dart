@@ -3,6 +3,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:quote_app/models/quote_model.dart';
 import 'package:quote_app/repository/quote_repository.dart';
 
+var index = 0;
+// var len =
+
 class QuoteViewModel extends ChangeNotifier {
   QuoteViewModel() {
     getQuotes();
@@ -19,9 +22,15 @@ class QuoteViewModel extends ChangeNotifier {
     notifyListeners();
     try {
       final res = await quoteRepository.getQuote();
-      quote = res[0];
+      quote = res[index];
       loading = false;
       notifyListeners();
+      // print('The length is${res.length}');
+      if (index != res.length) {
+        index++;
+      } else {
+        index = 0;
+      }
     } catch (e) {
       error = true;
       loading = false;

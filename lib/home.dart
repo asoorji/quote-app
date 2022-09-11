@@ -34,7 +34,7 @@ class HomePage extends HookConsumerWidget {
                                 color: Colors.white, fontSize: 80),
                           ),
                           Text(
-                            "${quoteViewModel.quote.quote} ?? " "",
+                            quoteViewModel.quote.quote,
                             style: GoogleFonts.playfairDisplay(
                                 color: Colors.white, fontSize: 25),
                           ),
